@@ -1,0 +1,253 @@
+T-Systems MMS 
+
+Blockchain Online Marktanalyse 
+ 
+
+1. Juli 2019 
+
+Vorab 
+Bei der Frage, welche Technologien, Frameworks, Plattformen derzeit am 
+
+gefragtesten sind, gibt es leider einige Schwierigkeiten in der Datenerhebung. 
+
+Da die recherchierten statistische Werte, wenn sie denn angegeben wurden, 
+
+unglaubwürdig oder widersprüchlich sind, werden keine Aussagen über genaue 
+
+Verteilungen etc. gegeben. 
+
+Stattdessen verwenden die meisten Quellen ein recht konsistentes Listing der 
+
+Technologien, so dass dieses der folgenden Bewertung unterliegt. 
+
+Alle Quellen werden mit gleicher Glaubwürdigkeit betrachtet und gehen somit in 
+
+die Berechnung gleich gewichtet ein. 
+
+   
+
+
+
+ 
+
+Bewertung 
+Die Technologien werden wie folgt bewertet: 
+
+Pro Liste wird die Differenz von Listenlänge und Position (Beginnend bei 0) 
+
+der Technologie, geteilt durch die Listenlänge, aufsummiert. Ist eine 
+
+Technologie nicht in der Liste enthalten, ist der Summand 0. 
+
+Das Gesamtergebnis wird durch die Anzahl der Quellen geteilt. 
+
+Bsp:  
+
+Für eine Liste gilt folgende Bewertung... 
+
+1. Ethereum → (3 - 0) / 3 = 1.00 
+
+2. Bitcoin → (3 - 1) / 3 = 0.67 
+
+3. Hyperledger Fabric → (3 - 2) / 3 = 0.33 
+
+Für eine weitere Liste gilt folgende Bewertung... 
+
+1. Ethereum → (4 - 0) / 4 = 1.00 
+
+2. Hyperledger Fabric → (4 - 1) / 4 = 0.75 
+
+3. Ripple → (4 - 2) / 4 = 0.50 
+
+4. Corda → (4 - 3) / 4 = 0.25 
+
+Für beide Listen gesamt gilt folgende Berechnung... 
+
+1. Ethereum → (1.00 + 1.00) / 2 = 1.00 
+
+2. Hyperledger Fabric → (0.67 + 0.75) / 2 = 0.71 
+
+3. Ripple → (0.00 + 0.50) / 2 = 0.25 
+
+4. Bitcoin → (0.33 + 0.00) / 2 = 0.17 
+
+5. Corda → (0.00 + 0.25) / 2 = 0.13 
+
+   
+
+
+
+ 
+
+Resultat 
+ 
+
+Ethereum  0.97  General Purpose 
+Applications  1
+
+Hyperledger Fabric  0.67  General Purpose 
+Applications  2
+
+Corda  0.32  General Purpose 
+Applications  3
+
+Ripple  0.26  Currency Exchange  4
+
+Hyperledger Sawtooth  0.21  General Purpose 
+Applications  5
+
+Quorum  0.20  General Purpose 
+Applications  6
+
+BigChainDB  0.17  General Purpose Database
+  7
+
+Hydrachain  0.16  General Purpose 
+Applications  8
+
+Amazon Quantum Ledger 
+Database 
+
+0.14  General Purpose Database
+ 9
+
+Multichain  0.14  Currency Exchange  10
+
+IBM Blockchain  0.11  General Purpose 
+Applications  11
+
+Hedera Hashgraph  0.11  Currency Exchange  12
+
+Bitcoin  0.10  Currency Exchange  13
+
+1 ​https://en.wikipedia.org/wiki/Ethereum?oldformat=true 
+2 ​https://en.wikipedia.org/wiki/Hyperledger?oldformat=true 
+3 ​https://en.wikipedia.org/wiki/R3_(company)?oldformat=true 
+4 ​https://www.wikiwand.com/en/Ripple_(payment_protocol) 
+5 ​https://en.wikipedia.org/wiki/Hyperledger?oldformat=true 
+6 ​https://golden.com/wiki/Quorum_(blockchain) 
+7 ​https://en.bitcoinwiki.org/wiki/BigchainDB 
+8 ​https://www.blockchainexpert.uk/blog/hydrachain-dapp 
+9 ​https://aws.amazon.com/de/qldb/ 
+10 ​https://de.bitcoinwiki.org/wiki/Multichain 
+11 ​https://www.ibm.com/blockchain/platform#1899356 
+12 ​https://en.wikipedia.org/wiki/Hashgraph?oldformat=true 
+13 ​https://www.wikiwand.com/en/Bitcoin 
+
+https://en.wikipedia.org/wiki/Ethereum?oldformat=true
+https://en.wikipedia.org/wiki/Hyperledger?oldformat=true
+https://en.wikipedia.org/wiki/R3_(company)?oldformat=true
+https://www.wikiwand.com/en/Ripple_(payment_protocol)
+https://en.wikipedia.org/wiki/Hyperledger?oldformat=true
+https://golden.com/wiki/Quorum_(blockchain)
+https://en.bitcoinwiki.org/wiki/BigchainDB
+https://www.blockchainexpert.uk/blog/hydrachain-dapp
+https://aws.amazon.com/de/qldb/
+https://de.bitcoinwiki.org/wiki/Multichain
+https://www.ibm.com/blockchain/platform#1899356
+https://en.wikipedia.org/wiki/Hashgraph?oldformat=true
+https://www.wikiwand.com/en/Bitcoin
+
+
+ 
+
+Hyperledger Iroha  0.08  General Purpose 
+Applications  14
+
+OpenChain  0.07  Currency Exchange  15
+
+Mastercard Blockchain  0.06  Multi-Blockchain 
+Applications  16
+
+EOS  0.05  General Purpose 
+Applications  17
+
+Stellar  0.03  Currency Exchange  18
+
+Dragonchain  0.02  General Purpose 
+Applications  19
+
+Cain Core  0.02  General Purpose 
+Applications  20
+
+NEO  0.01  Currency Exchange  21
+
+IOTA  0.01  Currency Exchange  22
+
+Die hier berechneten Werte wurden mit Hilfe eines Scriptes berechnet. Falls 
+
+die weitere Quellen hinzukommen ist dieses Script zur Berechnung zu empfehlen 
+
+und kann ausgehändigt werden. 
+
+   
+
+14 ​https://www.hyperledger.org/projects/iroha 
+15 ​https://www.openchain.org/ 
+16 
+https://cointelegraph.com/news/why-mastercards-multi-blockchain-might-be-a-new
+-step-in-the-patent-race 
+17 ​https://en.wikipedia.org/wiki/EOS.IO?oldformat=true 
+18 ​https://www.wikiwand.com/en/Stellar_(payment_network) 
+19 ​https://en.wikipedia.org/wiki/Dragonchain?oldformat=true 
+20 ​https://www.wikiwand.com/en/NEO_(cryptocurrency) 
+21 ​https://chain.com/docs/1.2/core/get-started/introduction 
+22 ​https://www.wikiwand.com/de/IOTA_(Kryptow%C3%A4hrung)  
+
+https://www.hyperledger.org/projects/iroha
+https://www.openchain.org/
+https://cointelegraph.com/news/why-mastercards-multi-blockchain-might-be-a-new-step-in-the-patent-race
+https://cointelegraph.com/news/why-mastercards-multi-blockchain-might-be-a-new-step-in-the-patent-race
+https://en.wikipedia.org/wiki/EOS.IO?oldformat=true
+https://www.wikiwand.com/en/Stellar_(payment_network)
+https://en.wikipedia.org/wiki/Dragonchain?oldformat=true
+https://www.wikiwand.com/en/NEO_(cryptocurrency)
+https://chain.com/docs/1.2/core/get-started/introduction
+https://www.wikiwand.com/de/IOTA_(Kryptow%C3%A4hrung)
+
+
+ 
+
+Top 10 Technologien grafisch dargestellt: 
+
+ 
+
+Quellen 
+1. https://www.blockchain-council.org/blockchain/top-10-blockchain-platform
+
+s-you-need-to-know-about/ 
+
+2. https://www.g2.com/categories/blockchain-platforms#highest_rated 
+
+3. https://dev.to/dianamaltseva8/10-most-popular--promising-blockchain-plat
+
+forms-djo 
+
+4. https://www.horsesforsources.com/top-5-blockchain-platforms_031618 
+
+5. https://www.leewayhertz.com/blockchain-platforms-for-top-blockchain-comp
+
+anies/ 
+
+6. https://medium.com/swishlabs/the-5-best-blockchain-platforms-for-enterpr
+
+ises-and-what-makes-them-a-good-fit-1b44a9be59d4 
+
+7. https://medium.com/@falloutquiz/top-3-blockchain-frameworks-you-should-k
+
+now-about-43f27ce67ee9 
+
+ 
+
+https://www.blockchain-council.org/blockchain/top-10-blockchain-platforms-you-need-to-know-about/
+https://www.blockchain-council.org/blockchain/top-10-blockchain-platforms-you-need-to-know-about/
+https://www.g2.com/categories/blockchain-platforms#highest_rated
+https://dev.to/dianamaltseva8/10-most-popular--promising-blockchain-platforms-djo
+https://dev.to/dianamaltseva8/10-most-popular--promising-blockchain-platforms-djo
+https://www.horsesforsources.com/top-5-blockchain-platforms_031618
+https://www.leewayhertz.com/blockchain-platforms-for-top-blockchain-companies/
+https://www.leewayhertz.com/blockchain-platforms-for-top-blockchain-companies/
+https://medium.com/swishlabs/the-5-best-blockchain-platforms-for-enterprises-and-what-makes-them-a-good-fit-1b44a9be59d4
+https://medium.com/swishlabs/the-5-best-blockchain-platforms-for-enterprises-and-what-makes-them-a-good-fit-1b44a9be59d4
+https://medium.com/@falloutquiz/top-3-blockchain-frameworks-you-should-know-about-43f27ce67ee9
+https://medium.com/@falloutquiz/top-3-blockchain-frameworks-you-should-know-about-43f27ce67ee9
