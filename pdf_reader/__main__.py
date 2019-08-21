@@ -4,6 +4,8 @@ import logging
 import os
 from typing import List
 
+from .spinner import Spinner
+from .ocr import convert
 from .filehandler import to_file_path, save_file
 
 PDF_DIR: str = to_file_path('res')
@@ -19,16 +21,30 @@ def main() -> None:
     pdfs: List[str] = get_pdfs(PDF_DIR)
     if not pdfs:
         exit(1)
+    with Spinner():
+        _convert_pdfs(pdfs)
 
+
+def _convert_pdfs(pdfs: List[str]) -> None:
+    """
+    converts the pdfs, so it does the main job
+    :param pdfs: the pdf paths
+    :return:
+    """
     for pdf in pdfs:
+        filename: str = f'{pdf.split(".")[-2]}.txt'.split(os.sep)[-1]
+
         raw: str = parser.from_file(pdf)
         if raw['content']:
-            filename: str = f'{pdf.split(".")[0]}.txt'
             save_file(file_name=filename, data=raw['content'].strip())
             LOGGER.info(f'Decoded "{pdf}"')
         else:
             # PDF was not readable: trigger OCR
             LOGGER.info(f'"{pdf}" was not decodable, start OCR...')
+            text: str = convert(pdf)
+            if not text:
+                exit(1)
+            save_file(file_name=filename, data=text)
 
 
 def setup_logger() -> None:
@@ -37,7 +53,7 @@ def setup_logger() -> None:
     :return:
     """
     LOGGER.setLevel(logging.DEBUG)
-    formatter = logging.Formatter('%(asctime)s \t- %(name)s \t- %(levelname)s \t- %(message)s')
+    formatter = logging.Formatter('%(levelname)s \t|%(asctime)s \t| %(name)s \t|  %(message)s')
 
     file_handler: logging.FileHandler = logging.FileHandler(to_file_path('pdf_reader.log'), mode='w')
     file_handler.setLevel(logging.DEBUG)
@@ -67,7 +83,7 @@ def get_pdfs(dir: str) -> List[str]:
     pdfs: List[str] = []
     os.chdir(dir)
     for file in glob.glob("*.pdf"):
-        pdfs.append(file)
+        pdfs.append(to_file_path(f'res/{file}'))
 
     if not pdfs:
         LOGGER.warning(f"No PDFs found in {dir}")
