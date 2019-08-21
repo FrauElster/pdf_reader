@@ -1,6 +1,6 @@
 # PDF READER
 
-##Description
+## Description
 
 This Script tries to convert PDF from the `res` directory. It first to just decode them, but if that's not possible, 
 e.g. due scanned documents, it tries to OCR them. Currently supported are english and german. You can add more OCR 
