@@ -1,4 +1,5 @@
 venv
 pdf_reader.log
 out
+.idea
 pdf_reader/__pycache__/
